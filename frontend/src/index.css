@@ -29,3 +29,9 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@layer base {
+    body {
+        font-family: 'Satoshi-Regular', sans-serif;
+    }
+}

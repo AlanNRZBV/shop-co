@@ -17,11 +17,19 @@ export default {
           100: '#f0f0f0',
           200: '#f0eded',
           300: '#666666',
+          400: '#F2F0F1',
         },
         greenCustom: '#03ab30',
       },
       screens: {
-        xs: '',
+        xs: '390px',
+      },
+      container: {
+        center: true,
+        padding: '1rem',
+        screens: {
+          xs: '100%',
+        },
       },
     },
   },

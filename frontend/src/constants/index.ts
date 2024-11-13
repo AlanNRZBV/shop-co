@@ -1,4 +1,5 @@
 const iconUrl = `${import.meta.env.VITE_API_URL}/assets/icons/`;
+const imageUrl = `${import.meta.env.VITE_API_URL}/assets/images/`;
 
 export const icons = {
   search: `${iconUrl}/search.svg`,
@@ -7,4 +8,9 @@ export const icons = {
   profile: `${iconUrl}/profile.svg`,
   burger: `${iconUrl}/burger-menu.svg`,
   chevronDown: `${iconUrl}/chevron-down.svg`,
+};
+
+export const images = {
+  heroLarge: `${imageUrl}/hero-cover-large.png`,
+  heroSmall: `${imageUrl}/hero-cover-small.png`,
 };

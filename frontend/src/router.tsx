@@ -1,10 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App.tsx';
 import Home from './pages/Home.tsx';
-import New from './pages/New.tsx';
-import Sale from './pages/Sale.tsx';
 import NotFound from './pages/NotFound.tsx';
-import Brands from './pages/Brands.tsx';
+import Categories from './pages/Categories.tsx';
+import Product from './pages/Product.tsx';
 
 const router = createBrowserRouter(
   [
@@ -18,16 +17,12 @@ const router = createBrowserRouter(
           element: <Home />,
         },
         {
-          path: '/new-arrivals',
-          element: <New />,
+          path: '/categories',
+          element: <Categories />,
         },
         {
-          path: '/on-sale',
-          element: <Sale />,
-        },
-        {
-          path: '/brands',
-          element: <Brands />,
+          path: '/product',
+          element: <Product />,
         },
       ],
     },

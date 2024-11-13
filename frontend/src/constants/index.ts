@@ -13,4 +13,9 @@ export const icons = {
 export const images = {
   heroLarge: `${imageUrl}/hero-cover-large.png`,
   heroSmall: `${imageUrl}/hero-cover-small.png`,
+  zaraLogoWhite: `${imageUrl}/zara-logo-white.png`,
+  versaceLogoWhite: `${imageUrl}/versace-logo-white.png`,
+  gucciLogoWhite: `${imageUrl}/gucci-logo-white.png`,
+  pradaLogoWhite: `${imageUrl}/prada-logo-white.png`,
+  ckLogoWhite: `${imageUrl}/ck-logo-white.png`,
 };

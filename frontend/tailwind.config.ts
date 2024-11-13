@@ -23,6 +23,7 @@ export default {
       },
       screens: {
         xs: '390px',
+        xsPlus: '460px',
       },
       container: {
         center: true,

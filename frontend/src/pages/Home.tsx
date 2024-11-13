@@ -1,9 +1,16 @@
+import Hero from '../components/Hero/Hero.tsx';
+import CardHolder from '../components/CardHolder.tsx';
+import Carousel from '../components/Carousel.tsx';
+
 const Home = () => {
   return (
-    <div>
-      <p className="font-IntegralCFBold">some text</p>
-      <p className="font-SatoshiBold">another text</p>
-    </div>
+    <>
+      <Hero />
+      <CardHolder />
+      <CardHolder />
+      <CardHolder />
+      <Carousel />
+    </>
   );
 };
 

@@ -8,7 +8,7 @@ const App = () => {
       <header>
         <Navigation />
       </header>
-      <main className="mx-auto h-full border border-accent sm:container">
+      <main className="mx-auto h-full sm:container">
         <Outlet />
       </main>
       <footer>

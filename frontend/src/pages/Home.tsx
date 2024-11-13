@@ -1,9 +1,10 @@
+import Hero from '../components/Hero/Hero.tsx';
+
 const Home = () => {
   return (
-    <div>
-      <p className="font-IntegralCFBold">some text</p>
-      <p className="font-SatoshiBold">another text</p>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 };
 

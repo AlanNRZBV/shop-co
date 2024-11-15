@@ -30,7 +30,6 @@ const Hero = () => {
   const handler = () => {
     navigate('/categories');
   };
-
   return (
     <div className="bg-greyCustom-400">
       <div className="mx-auto pt-10 xs:container">

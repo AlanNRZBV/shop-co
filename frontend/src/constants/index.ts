@@ -8,6 +8,8 @@ export const icons = {
   profile: `${iconUrl}/profile.svg`,
   burger: `${iconUrl}/burger-menu.svg`,
   chevronDown: `${iconUrl}/chevron-down.svg`,
+  ratingStar: `${iconUrl}/rating-star.svg`,
+  ratingHalfStar: `${iconUrl}/rating-half-star.svg`,
 };
 
 export const images = {

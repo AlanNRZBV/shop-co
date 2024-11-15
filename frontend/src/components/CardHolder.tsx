@@ -7,8 +7,10 @@ interface Props {
 }
 const CardHolder: FC<Props> = ({ title, cards }) => {
   return (
-    <div>
-      <h3>{title}</h3>
+    <div className="mt-[50px] xs:container">
+      <h3 className="mb-8 text-center font-IntegralCFBold text-[32px]">
+        {title}
+      </h3>
       {cards.map((item) => (
         <ProductCard
           id={item.id}

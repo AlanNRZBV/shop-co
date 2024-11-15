@@ -8,7 +8,7 @@ const MOCK_PRODUCT_DATA: Card[] = [
     price: '120',
     image: images.tshirtWithTapeDetails,
     title: 'T-shirt with Tape Details',
-    rating: '4.5/5',
+    rating: '4.5',
     imageAlt: 'T-shirt with Tape Details',
   },
   {
@@ -16,7 +16,7 @@ const MOCK_PRODUCT_DATA: Card[] = [
     price: '240',
     image: images.skinnyFitJeans,
     title: 'Skinny Fit Jeans',
-    rating: '3.5/5',
+    rating: '3.5',
     imageAlt: 'Skinny Fit Jeans',
     discount: '20',
     oldPrice: '260',
@@ -26,7 +26,7 @@ const MOCK_PRODUCT_DATA: Card[] = [
     price: '180',
     image: images.checkeredShirt,
     title: 'Checkered Shirt',
-    rating: '4.5/5',
+    rating: '4.5',
     imageAlt: 'Checkered Shirt',
   },
   {
@@ -34,7 +34,7 @@ const MOCK_PRODUCT_DATA: Card[] = [
     price: '130',
     image: images.sleeveStripedTshirt,
     title: 'Sleeve Striped T-shirt',
-    rating: '4.5/5',
+    rating: '4.5',
     imageAlt: 'T-shirt with Tape Details',
     discount: '30',
     oldPrice: '160',
@@ -54,7 +54,7 @@ const MOCK_PRODUCT_DATA: Card[] = [
     price: '145',
     image: images.courageGraphicTshirt,
     title: 'Courage Graphic T-shirt',
-    rating: '4/5',
+    rating: '4',
     imageAlt: 'Courage Graphic T-shirt',
   },
   {
@@ -62,7 +62,7 @@ const MOCK_PRODUCT_DATA: Card[] = [
     price: '80',
     image: images.looseFitBermudaShort,
     title: 'Loose Fit Bermuda Shirts',
-    rating: '3/5',
+    rating: '3',
     imageAlt: 'Loose Fit Bermuda Shirts',
   },
   {
@@ -70,7 +70,7 @@ const MOCK_PRODUCT_DATA: Card[] = [
     price: '210',
     image: images.fadedSkinnyJeans,
     title: 'Faded Skinny Jeans',
-    rating: '4.5/5',
+    rating: '4.5',
     imageAlt: 'Loose Fit Bermuda Shirts',
   },
 ];

@@ -7,8 +7,9 @@ import { useNavigate } from 'react-router-dom';
 interface Props {
   title: string;
   cards: Card[];
+  link: string;
 }
-const CardHolder: FC<Props> = ({ title, cards }) => {
+const CardHolder: FC<Props> = ({ title, cards, link }) => {
   const isXs = useMediaQuery({
     query: '(max-width: 639px)',
   });
@@ -46,7 +47,7 @@ const CardHolder: FC<Props> = ({ title, cards }) => {
       <CustomButton
         title="View All"
         onClick={() => {
-          navigate('/categories');
+          navigate(link);
         }}
         styles="border border-greyCustom-100 py-3 mt-6 xsPlus:self-center xsPlus:px-14"
       />

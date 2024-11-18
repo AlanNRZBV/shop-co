@@ -18,6 +18,7 @@ const ProductCard: FC<Card> = ({
   const navigateTo = () => {
     navigate(`/product/${id}`);
   };
+
   const ratingParsed = parseFloat(rating);
   const ratingRounded = Math.floor(ratingParsed);
   const isHalf = ratingParsed % 1 === 0.5;
@@ -57,7 +58,7 @@ const ProductCard: FC<Card> = ({
         {oldPrice && discount && (
           <>
             <span className="font-SatoshiBold text-xl text-gray-400 line-through">
-              {oldPrice}
+              ${oldPrice}
             </span>
             <CustomTag
               title={discount}

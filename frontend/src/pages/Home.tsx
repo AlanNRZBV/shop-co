@@ -2,7 +2,7 @@ import Hero from '../components/Hero/Hero.tsx';
 import CardHolder from '../components/CardHolder.tsx';
 import { images } from '../constants';
 
-const MOCK_PRODUCT_DATA: Card[] = [
+const MOCK_NEW_ARRIVALS_DATA: Card[] = [
   {
     id: '1',
     price: '120',
@@ -39,6 +39,8 @@ const MOCK_PRODUCT_DATA: Card[] = [
     discount: '30',
     oldPrice: '160',
   },
+];
+const MOCK_TOP_SELLING_DATA: Card[] = [
   {
     id: '5',
     price: '212',
@@ -79,8 +81,16 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <CardHolder title="New Arrivals" cards={MOCK_PRODUCT_DATA} />
-      {/*<CardHolder />*/}
+      <CardHolder
+        title="New Arrivals"
+        cards={MOCK_NEW_ARRIVALS_DATA}
+        link="/categories"
+      />
+      <CardHolder
+        title="Top Selling"
+        cards={MOCK_TOP_SELLING_DATA}
+        link="/categories"
+      />
       {/*<CardHolder />*/}
     </>
   );

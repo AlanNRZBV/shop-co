@@ -57,8 +57,9 @@ const Hero = () => {
       <div className="flex flex-col">
         <img src={images.heroSmall} alt="two models" />
         <div className="flex flex-wrap items-stretch justify-center gap-[20px] bg-black px-4 py-10">
-          {BRANDS.map((item) => (
+          {BRANDS.map((item, index) => (
             <img
+              key={index}
               className="[&:nth-last-child(-n+3)]:border-red"
               src={item.url}
               alt={item.alt}

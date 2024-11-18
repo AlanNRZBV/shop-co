@@ -52,13 +52,20 @@ const ProductCard: FC<Card> = ({
           <span className="text-gray-500">/5</span>
         </div>
       </div>
-      <span className="font-SatoshiBold text-xl">${price}</span>
-      {oldPrice && discount && (
-        <div>
-          <span>{oldPrice}</span>
-          <CustomTag title={discount} />
-        </div>
-      )}
+      <div className="flex items-center gap-x-[10px]">
+        <span className="font-SatoshiBold text-xl">${price}</span>
+        {oldPrice && discount && (
+          <>
+            <span className="font-SatoshiBold text-xl text-gray-400 line-through">
+              {oldPrice}
+            </span>
+            <CustomTag
+              title={discount}
+              styles="py-[6px] px-[14px] text-accent bg-accent bg-opacity-10 font-SatoshiMedium text-xs"
+            />
+          </>
+        )}
+      </div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 interface Props {
   title: string;
-  cards: Card[];
+  cards: ProductCard[];
   link: string;
 }
 const CardHolder: FC<Props> = ({ title, cards, link }) => {

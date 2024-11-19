@@ -45,7 +45,7 @@ const Hero = () => {
           <CustomButton
             title="Shop Now"
             onClick={handler}
-            className="mb-5 rounded-full bg-black py-4 text-white"
+            styles="mb-5 rounded-full bg-black py-4 text-white"
           />
         </div>
         <div className="flex flex-row flex-wrap items-center justify-center">

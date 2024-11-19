@@ -31,4 +31,12 @@ export const images = {
   gradientGraphicTshirt: `${imageUrl}/gradient-graphic-tshirt.png`,
   poloWithTippingDetails: `${imageUrl}/polo-with-tipping-details.png`,
   blackStripedTshirt: `${imageUrl}/black-striped-t-shirt.png`,
+  categoryGym: `${imageUrl}/category-gym.png`,
+  categoryCasual: `${imageUrl}/category-casual.png`,
+  categoryParty: `${imageUrl}/category-party.png`,
+  categoryFormal: `${imageUrl}/category-formal.png`,
+  categoryGymLarge: `${imageUrl}/category-gym-large.png`,
+  categoryCasualLarge: `${imageUrl}/category-casual-large.png`,
+  categoryPartyLarge: `${imageUrl}/category-party-large.png`,
+  categoryFormalLarge: `${imageUrl}/category-formal-large.png`,
 };

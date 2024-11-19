@@ -3,7 +3,7 @@ import CustomTag from './UI/CustomTag.tsx';
 import { useNavigate } from 'react-router-dom';
 import { icons } from '../constants';
 
-const ProductCard: FC<Card> = ({
+const ProductCard: FC<ProductCard> = ({
   discount,
   id,
   image,

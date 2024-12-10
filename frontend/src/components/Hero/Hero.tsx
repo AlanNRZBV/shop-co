@@ -1,7 +1,7 @@
-import CustomButton from '../UI/CustomButton.tsx';
-import StatsItem from './StatsItem.tsx';
 import { images } from '../../constants';
 import { useNavigate } from 'react-router-dom';
+import CustomButton from '../UI/CustomButton';
+import StatsItem from './StatsItem';
 
 const MOCK_STAT_DATA = [
   {
@@ -37,7 +37,7 @@ const Hero = () => {
           <span className="mb-5 font-IntegralCFBold text-4xl capitalize">
             find clothes that match your style
           </span>
-          <span className="text-greyCustom-300 mb-6 text-sm">
+          <span className="mb-6 text-sm text-greyCustom-300">
             Browse through our diverse range of meticulously crafted garments,
             designed to bring out your individuality and cater to your sense of
             style.
@@ -56,14 +56,9 @@ const Hero = () => {
       </div>
       <div className="flex flex-col">
         <img src={images.heroSmall} alt="two models" />
-        <div className="flex flex-wrap items-stretch justify-center gap-[20px] bg-black px-4 py-10">
+        <div className="flex flex-wrap items-stretch justify-center gap-[15px] bg-black px-4 py-10">
           {BRANDS.map((item, index) => (
-            <img
-              key={index}
-              className="[&:nth-last-child(-n+3)]:border-red"
-              src={item.url}
-              alt={item.alt}
-            />
+            <img key={index} src={item.url} alt={item.alt} />
           ))}
         </div>
       </div>

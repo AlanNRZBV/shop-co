@@ -30,6 +30,7 @@ export default {
         padding: '1rem',
         screens: {
           xs: '100%',
+          xl: '1280px',
         },
       },
     },

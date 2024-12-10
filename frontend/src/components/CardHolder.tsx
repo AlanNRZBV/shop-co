@@ -29,7 +29,7 @@ const CardHolder: FC<Props> = ({ title, cards, link }) => {
       <h3 className="mb-8 text-center font-IntegralCFBold text-[32px]">
         {title}
       </h3>
-      <div className="flex justify-center xs:gap-x-4">
+      <div className="flex gap-4">
         {displayedCards.map((item) => (
           <ProductCard
             key={item.id}

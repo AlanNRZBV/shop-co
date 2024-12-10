@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import Navigation from './components/Navigation.tsx';
-import Footer from './components/Footer.tsx';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <header>
         <Navigation />
       </header>
-      <main className="mx-auto h-full sm:container">
+      <main className="mx-auto h-full">
         <Outlet />
       </main>
       <footer>

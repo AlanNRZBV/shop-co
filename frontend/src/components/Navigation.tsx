@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import { icons } from '../constants';
 import CustomIcon from './UI/CustomIcon';
-import SearchBar from './UI/SearchBar.tsx';
+import SearchBar from './UI/SearchBar';
 
 const Navigation = () => {
   return (
-    <nav className="mx-auto flex items-center justify-between px-4 py-5 xl:container">
+    <nav className="container mx-auto flex items-center justify-between px-4 py-5">
       <div className="mr-10 flex">
         <CustomIcon
           src={icons.burger}
